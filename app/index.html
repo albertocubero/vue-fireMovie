@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
@@ -29,25 +30,55 @@
     <![endif]-->
 
     <div class="container">
-      <div class="col-md-offset-2 col-md-8">
+      <div class="row"></div>
+        <div class="col-md-offset-2 col-md-8">
 
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Selection</a></li>
-          <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Your Movies</a></li>
-          <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-          <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
-        </ul>
+          <div class="logo">Vue FireMovie</div>
 
-        <!-- Tab panes -->
-        <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="home">...</div>
-          <div role="tabpanel" class="tab-pane" id="profile">...</div>
-          <div role="tabpanel" class="tab-pane" id="messages">...</div>
-          <div role="tabpanel" class="tab-pane" id="settings">...</div>
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Selection</a></li>
+            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Your Movies</a></li>
+            <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+            <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+          </ul>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="home">
+
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="http://assets.fanart.tv/fanart/movies/155/moviebanner/the-dark-knight-551465f5d891b.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="http://assets.fanart.tv/fanart/movies/155/moviebanner/the-dark-knight-551465f5d891b.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="http://assets.fanart.tv/fanart/movies/155/moviebanner/the-dark-knight-551465f5d891b.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="http://assets.fanart.tv/fanart/movies/155/moviebanner/the-dark-knight-551465f5d891b.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div role="tabpanel" class="tab-pane" id="profile">...</div>
+                <div role="tabpanel" class="tab-pane" id="messages">...</div>
+                <div role="tabpanel" class="tab-pane" id="settings">...</div>
+              </div>
+            </div>
+          </div>
+
         </div>
-      </div>
-
     </div>
 
     <!-- build:js scripts/vendor.js -->
